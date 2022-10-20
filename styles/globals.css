@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;  
+}
+
+@layer components{
+  .filter-button{
+    @apply px-4 py-2 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 transition duration-100 ease-out active:bg-gray-100
+  }
+}
